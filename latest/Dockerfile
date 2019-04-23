@@ -57,7 +57,8 @@ RUN docker-php-ext-install \
     xml \
     gd \
     zip \
-    bcmath
+    bcmath \
+    exif
 
 RUN docker-php-ext-configure gd \
     --with-freetype-dir=/usr/include/ \
